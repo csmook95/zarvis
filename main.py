@@ -11,5 +11,4 @@ with gr.Blocks() as demo:
 
 	input_audio.change(change_audio, inputs=[input_audio], outputs=[output_text])
 
-
 demo.launch()
